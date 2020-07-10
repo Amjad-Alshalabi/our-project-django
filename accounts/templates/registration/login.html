@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+		<!-- Start Log Area -->
+		{% block body %}
+		<div class="dg__account section-padding--xl">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="acount__nav nav justify-content-center" role="tablist">
+							<a class="nav-item nav-link active" data-toggle="tab" href="#login" role="tab">Login</a>
+							<a class="nav-item nav-link" data-toggle="tab" href="#register" role="tab">Register</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="tab__container">
+							<div class="single__account tab-pane fade show active" id="login" role="tabpanel">
+
+								<div class="input__box">
+									<span>Email Address</span>
+									<input type="text">
+								</div>
+								<div class="input__box">
+									<span>Password</span>
+									<input type="password">
+								</div>
+								<a class="forget__pass" href="#">Lost your password?</a>
+								<button class="account__btn">Login</button>
+							</div>
+
+							<div class="single__account tab-pane fade" id="register" role="tabpanel">
+
+								<div class="input__box">
+									<span>First Name</span>
+									<input type="text">
+								</div>
+
+								<div class="input__box">
+									<span>Last Name</span>
+									<input type="text">
+								</div>
+
+								<div class="input__box">
+									<span>Email address</span>
+									<input type="email">
+								</div>
+
+								<div class="input__box">
+									<span>Password</span>
+									<input type="password">
+								</div>
+								<button class="account__btn">Register</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		{% endblock body %}
+		<!-- End Log Area -->
