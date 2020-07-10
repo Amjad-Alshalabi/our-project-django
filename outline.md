@@ -1,9 +1,7 @@
 ->Basic Core :
   - Login Page:
+    + Do Login
     + Change Password
-    + Reset Password
-    + Reset Email
-    + Remember Me cookies
   - Sign Up Page:
     + New User
     + Confirmation Email
@@ -36,3 +34,8 @@
 
 
 ->Extra Core :
+  - Login :
+    + Reset Email
+    + Remember Me cookies
+    + Reset Password
+
