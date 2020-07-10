@@ -4,7 +4,6 @@
     + Change Password
   - Sign Up Page:
     + New User
-    + Confirmation Email
   - Profile Page
   - News Page
   - Home Page
@@ -38,4 +37,5 @@
     + Reset Email
     + Remember Me cookies
     + Reset Password
-
+ - Sign Up Page:
+    + Confirmation Email
