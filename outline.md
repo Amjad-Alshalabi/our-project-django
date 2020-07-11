@@ -39,3 +39,6 @@
     + Reset Password
  - Sign Up Page:
     + Confirmation Email
+ - Chat Page
+ - Dashboard Page
+ - Recomndtion System
